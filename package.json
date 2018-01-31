@@ -1,0 +1,17 @@
+{
+  "name": "mass-http-code-scanner",
+  "version": "1.0.0",
+  "description": " Reads a .txt with domains and returns all domains that return error codes (aka 404, 503 etc.)",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "fetch": "^1.1.0",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "_palonE",
+  "license": "UNLICENSE"
+}
